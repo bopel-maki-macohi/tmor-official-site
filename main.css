@@ -3,14 +3,22 @@ body
     background-image: url("res/cover-faded.png");
     background-size: cover;
 
+    background-position: 100% 50%;
+
     /* font-family:monospace; */
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: large;
 }
 
+hr
+{
+    border-color: black;
+}
+
 #content
 {
     background-color: black;
+    border-color: white;
 
     color: white;
 }
