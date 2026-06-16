@@ -2,12 +2,12 @@ let ost = [
     {
         name: "Alert",
         video: '',
-        wav: "/res/ost/Alert.wav",
+        wav: "./res/ost/Alert.wav",
     },
     {
         name: "Expose",
         video: null,
-        wav: "/res/ost/Expose.wav",
+        wav: "./res/ost/Expose.wav",
     }
 ]
 
