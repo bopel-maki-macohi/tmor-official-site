@@ -1,7 +1,7 @@
 let ost = [
     {
         name: "Alert",
-        video: '',
+        video: 'https://youtu.be/dZ8UYfj4UJo?si=_oYk882c4NwfzC4N',
         wav: "./res/ost/Alert.wav",
     },
     {
