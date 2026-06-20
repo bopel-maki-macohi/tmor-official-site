@@ -8,7 +8,22 @@ let ost = [
         name: "Expose",
         video: null,
         wav: "./res/ost/Expose.wav",
-    }
+    },
+    {
+        name: "Planning",
+        video: null,
+        wav: "./res/ost/Planning.wav",
+    },
+    {
+        name: "Special Stage",
+        video: null,
+        wav: "./res/ost/SpecialStage.wav",
+    },
+    {
+        name: "Restoration",
+        video: null,
+        wav: "./res/ost/Restoration.wav",
+    },
 ]
 
 var songDiv = document.getElementById('songs');
