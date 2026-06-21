@@ -24,6 +24,11 @@ let ost = [
         video: null,
         wav: "./res/ost/Restoration.wav",
     },
+    {
+        name: "Core Heat",
+        video: null,
+        wav: "./res/ost/CoreHeat.wav",
+    },
 ]
 
 var songDiv = document.getElementById('songs');
