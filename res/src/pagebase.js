@@ -1,13 +1,5 @@
-var urlSplit = document.URL.split('/')
-console.log(document.URL)
-
-while (urlSplit.length > 4)
-    urlSplit.pop()
-var url = urlSplit.join('/') + '/'
-console.log(url)
-
 var hiddenurl = document.createElement('p')
-hiddenurl.innerHTML = urlSplit.join('/') + '/'
+hiddenurl.innerHTML = 'https://bopel-maki-macohi.github.io/tmor-official-site/'
 hiddenurl.id = 'WEBURL'
 document.head.appendChild(hiddenurl)
 
