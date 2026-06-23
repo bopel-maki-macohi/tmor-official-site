@@ -1,14 +1,9 @@
 var hiddenurl = document.createElement('p')
-hiddenurl.innerHTML = 'https://bopel-maki-macohi.github.io/tmor-official-site/'
+hiddenurl.innerHTML = './'
 hiddenurl.id = 'WEBURL'
 document.head.appendChild(hiddenurl)
 
 console.log(hiddenurl.innerHTML)
-
-var stylesheet = document.createElement('link')
-stylesheet.rel = "stylesheet"
-stylesheet.href = hiddenurl.innerHTML + "res/style/main.css"
-document.head.appendChild(stylesheet)
 
 var viewport = document.createElement('meta')
 viewport.name = "viewport"
