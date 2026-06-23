@@ -5,6 +5,11 @@ let ost = [
         wav: "./res/ost/Alert.wav",
     },
     {
+        name: "Charge Up (Teaser Trailer Song)",
+        video: null,
+        wav: "./res/ost/ChargeUp (Trailer).wav",
+    },
+    {
         name: "Expose",
         video: null,
         wav: "./res/ost/Expose.wav",
