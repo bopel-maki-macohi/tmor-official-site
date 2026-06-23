@@ -1,5 +1,7 @@
 var weburl = document.getElementById('WEBURL').innerHTML
 
+console.log(weburl)
+
 var topheader = document.getElementsByClassName('topheader')[0]
 
 var tch = document.createElement('a')
