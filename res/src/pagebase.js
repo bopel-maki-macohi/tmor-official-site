@@ -1,11 +1,7 @@
-var urlmaxshit = 3;
-
-if (document.URL.includes('github.io')) urlmaxshit = 4
-
 var urlSplit = document.URL.split('/')
 console.log(document.URL)
 
-while (urlSplit.length > urlmaxshit)
+while (urlSplit.length > 4)
     urlSplit.pop()
 var url = urlSplit.join('/') + '/'
 console.log(url)
