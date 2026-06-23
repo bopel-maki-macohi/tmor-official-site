@@ -19,6 +19,15 @@ stylesheet.rel = "stylesheet"
 stylesheet.href = hiddenurl.innerHTML + "res/style/main.css"
 document.head.appendChild(stylesheet)
 
+var viewport = document.createElement('meta')
+viewport.name = "viewport"
+viewport.content = 'width=device-width, initial-scale=1.0'
+document.head.appendChild(viewport)
+
+var charset = document.createElement('meta')
+charset.charset = 'UTF-8'
+document.head.appendChild(charset)
+
 var topheader = document.createElement('div')
 // <a href="https://www.youtube.com/@sphis-sinco/videos">By Maki</a>
 

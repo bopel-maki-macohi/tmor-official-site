@@ -2,39 +2,40 @@ let ost = [
     {
         name: "Alert",
         video: 'https://youtu.be/dZ8UYfj4UJo?si=_oYk882c4NwfzC4N',
-        wav: "./res/ost/Alert.wav",
+        wav: "Alert.wav",
     },
     {
         name: "Charge Up (Teaser Trailer Song)",
         video: 'https://www.youtube.com/watch?v=hbAAHGGKP2I',
-        wav: "./res/ost/ChargeUp (Trailer).wav",
+        wav: "ChargeUp (Trailer).wav",
     },
     {
         name: "Expose",
         video: 'https://www.youtube.com/watch?v=_CPRCIroh9c',
-        wav: "./res/ost/Expose.wav",
+        wav: "Expose.wav",
     },
     {
         name: "Planning",
         video: null,
-        wav: "./res/ost/Planning.wav",
+        wav: "Planning.wav",
     },
     {
         name: "Special Stage",
         video: null,
-        wav: "./res/ost/SpecialStage.wav",
+        wav: "SpecialStage.wav",
     },
     {
         name: "Restoration",
         video: null,
-        wav: "./res/ost/Restoration.wav",
+        wav: "Restoration.wav",
     },
     {
         name: "Core Heat",
         video: null,
-        wav: "./res/ost/CoreHeatV2_Short.wav",
+        wav: "CoreHeatV2_Short.wav",
     },
 ]
+var weburl = document.getElementById('WEBURL').innerHTML
 
 var songDiv = document.getElementById('songs');
 
@@ -53,7 +54,7 @@ ost.forEach(track => {
     trackAudio.controls = true;
     trackAudio.loop = true;
 
-    audioSource.src = track.wav;
+    audioSource.src = weburl + 'res/projects/tmor-coreharvester/ost/' + track.wav;
     audioSource.type = 'audio/wav';
 
     audioSource.appendChild(unsupported)

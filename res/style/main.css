@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("./res/cover-faded.png");
+    background-image: url("./default/cover-faded.png");
     background-size: cover;
 
     background-position: 100% 50%;
@@ -12,7 +12,7 @@ body
 
 @font-face {
     font-family: Bitend;
-    src: url("../Bitend DEMO.ttf");
+    src: url("./../Bitend DEMO.ttf");
 }
 
 hr
