@@ -1,15 +1,22 @@
 var weburl = document.getElementById('WEBURL').innerHTML
 
-var topheader = document.getElementsByClassName('topheader')[0]
+var cmvs = document.createElement('div')
+
+cmvs.id = 'content'
+cmvs.align = 'center'
+cmvs.appendChild(document.createElement('br'))
+
+var cmv_header = document.createElement('h1')
+cmv_header.innerHTML = 'Comic Music Videos';
+cmvs.appendChild(cmv_header)
 
 var tch = document.createElement('a')
 tch.href = weburl + 'pages/tmor-core-harvester.html';
 tch.innerHTML = 'TMOR : Core Harvester';
+cmvs.appendChild(tch)
 
-topheader.appendChild(document.createElement('hr'))
-topheader.appendChild(document.createElement('br'))
+cmvs.appendChild(document.createElement('br'))
+cmvs.appendChild(document.createElement('br'))
 
-topheader.appendChild(tch)
-
-topheader.appendChild(document.createElement('br'))
-topheader.appendChild(document.createElement('br'))
+document.body.appendChild(cmvs)
+document.body.appendChild(document.createElement('br'))
